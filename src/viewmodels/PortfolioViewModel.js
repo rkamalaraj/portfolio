@@ -197,7 +197,7 @@ export const portfolioData = {
 
 // ViewModel Hook
 export const usePortfolioViewModel = () => {
-  const [data, setData] = useState(portfolioData);
+  const [data] = useState(portfolioData);
   const [loading, setLoading] = useState(false);
 
   // Future: Can add data fetching logic here
